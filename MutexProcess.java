@@ -86,9 +86,6 @@ public class MutexProcess {
 	    System.out.println(ex);
 	    System.exit(1);
 	}
-	
-	// on initialization, we release a critical section
-	process.releaseCS();
 
 	// user prompt where user specify what he/she wants to do
 	while (true) {
